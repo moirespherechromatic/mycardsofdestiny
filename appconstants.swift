@@ -192,19 +192,19 @@ struct AppConstants {
         static func getDescription(for planet: String) -> (title: String, description: String) {
             switch planet.lowercased() {
             case "mercury":
-                return ("The Messenger", "Mercury governs communication, intellect, and quick thinking. This planet influences your ability to express ideas, learn new concepts, and adapt to changing situations.")
+                return ("Exploration & Curiosity", "Mercury is the quicksilver of the cosmos—restless, bright, and endlessly adaptable. It sparks beginnings of thought, words, and action, rippling outward into connections, choices, and fresh momentum. Mercury is the force of change and renewal, moving swiftly through both mind and matter.")
             case "venus":
-                return ("The Lover", "Venus rules love, beauty, and harmony. This planet affects your relationships, artistic expression, and ability to attract and appreciate beauty.")
+                return ("Personal Magnetism", "Venus's influence is magnetic, drawing attention to where balance, care, and intentionality can transform both inner and outer worlds. It invites us to align our choices with what we truly value, to recognize the worth in ourselves and others, and to allow beauty and harmony to guide how we create, relate, and live.")
             case "mars":
-                return ("The Warrior", "Mars represents action, energy, and drive. This planet influences your motivation, physical strength, and ability to take initiative.")
+                return ("Initiate with Passion", "Mars is the principle of drive, courage, and decisive action. It sharpens ambition, fuels competitive spirit, and directs energy toward movement and achievement. Its influence tests our willingness to take risks, face conflict, and apply determination in pursuit of progress. If you're looking for a sign to begin something new, Mars reminds us that momentum is built by acting with clarity and purpose.")
             case "jupiter":
-                return ("The Teacher", "Jupiter governs expansion, wisdom, and growth. This planet affects your philosophical outlook, learning opportunities, and ability to see the bigger picture.")
+                return ("Growth Pattern", "Jupiter is the principle of growth, expansion, and possibility. It magnifies opportunities that require vision and courage, encourages optimism, and invites you to step into a broader vision of what life can be. Jupiter reminds us that progress often comes by saying yes to growth, learning, and the courage to aim higher.")
             case "saturn":
-                return ("The Taskmaster", "Saturn represents discipline, responsibility, and life lessons. This planet influences your ability to build lasting structures and learn from experience.")
+                return ("Structure & Mastery", "Saturn is the principle of accountability, discipline, and structure. It brings focus to responsibility, endurance, and the long-term work of building something lasting. Its influence can feel heavy at times, yet it clarifies where commitment and persistence yield real strength. Saturn reminds us that growth often comes through limits, challenges, and the steady practice of integrity.")
             case "uranus":
-                return ("The Revolutionary", "Uranus governs innovation, rebellion, and sudden changes. This planet affects your need for freedom, originality, and breakthrough moments.")
+                return ("Breakthroughs & Innovation", "Uranus is the principle of disruption, innovation, and awakening. It breaks patterns, challenges convention, and sparks sudden shifts that open new possibilities. Its influence can feel unexpected, but it clears space for originality, independence, and higher truth. Uranus reminds us that breakthroughs often require shaking loose what no longer fits.")
             case "neptune":
-                return ("The Mystic", "Neptune rules dreams, intuition, and spirituality. This planet influences your imagination, psychic abilities, and connection to the divine.")
+                return ("Integration & Transcendence", "Neptune is the principle of vision, intuition, and imagination. It dissolves boundaries, heightens sensitivity, and opens awareness to realms beyond the ordinary. Its influence can blur lines between clarity and illusion, but also provides access to inspiration, compassion, and deep inner truth. Neptune reminds us that meaning is often found by looking inward, trusting subtle signals, and creating from a place of openness.")
             case "pluto":
                 return ("The Transformer", "Pluto represents transformation, power, and rebirth. This planet affects deep psychological changes and your ability to regenerate and evolve.")
             default:
